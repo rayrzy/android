@@ -18,6 +18,12 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="qassa"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/Q" />
+
   <remote  name="crdroid"
            fetch="https://github.com/"
            sync-c="true"
@@ -30,8 +36,8 @@
            sync-j="4"
            revision="refs/heads/10.0" />
 
-  <remote name = "bb"
-           fetch = "https://bitbucket.org/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la" />
